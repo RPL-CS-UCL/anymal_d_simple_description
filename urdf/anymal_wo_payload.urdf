@@ -1420,7 +1420,8 @@
 <!--  </link>-->
 
   <!-- Inspection Payload -->
-  <joint name="base_to_inspection_payload_mount" type="fixed">
+  <!-- NOTE: Comment this part since the inspection payload is not used -->
+  <!-- <joint name="base_to_inspection_payload_mount" type="fixed">
     <parent link="base"/>
     <child link="inspection_payload_mount"/>
     <origin rpy="0 0 0" xyz="0.14253 0.0 0.092"/>
@@ -1527,6 +1528,6 @@
     <child link="inspection_payload_camera_default"/>
     <origin rpy="0 0 0" xyz="0.0 0.0 0.175"/>
   </joint>
-  <link name="inspection_payload_camera_default"/>
+  <link name="inspection_payload_camera_default"/> -->
   
 </robot>
